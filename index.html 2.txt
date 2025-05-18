@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e1117;
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #12161f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  color: #00ffcc;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00ffcc;
+}
+
+.hero {
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1605792657660-596af9009f4b');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+}
+
+.hero h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  color: #00ffcc;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-top: 0.5rem;
+}
+
+.content {
+  padding: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  color: #00ffcc;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #12161f;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #333;
+}
